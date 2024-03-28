@@ -29,7 +29,7 @@ login[0].click()
 # driver.switch_to.window(driver.window_handles[2])
 # time.sleep(3)
 userName = driver.find_elements("xpath","/html/body/div[2]/div[4]/div[2]/div/div/section/div/div/div/div/form[1]/div[1]/input")[0].send_keys("Mrcoder")
-userName = driver.find_elements("xpath","/html/body/div[2]/div[4]/div[2]/div/div/section/div/div/div/div/form[1]/div[2]/input")[0].send_keys("M@@dleAdmin123456")
+userName = driver.find_elements("xpath","/html/body/div[2]/div[4]/div[2]/div/div/section/div/div/div/div/form[1]/div[2]/input")[0].send_keys("LOL")
 login2 = driver.find_elements("xpath","/html/body/div[2]/div[4]/div[2]/div/div/section/div/div/div/div/form[1]/div[3]/button")[0].click()
 ########################################################################
 #Back to Menu Function
